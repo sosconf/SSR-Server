@@ -6,7 +6,12 @@
        * [实现代理功能](#实现代理功能)
        * [开启 BBR 加速](#开启-bbr-加速)
     * [客户端下载和使用教程](#客户端下载和使用教程)
-         
+       * [Windows](#windows)
+       * [MacOs](#macos)
+       * [Linux](#linux)
+       * [iOS](#ios)
+       * [Android](#android)
+    
 # SSR 服务器搭建和使用指南
 [![LICENSE](https://img.shields.io/cran/l/devtools)](https://github.com/sosconf/SSR-Server/blob/master/LICENSE)
 [![Plantform](https://img.shields.io/badge/debian-4.19.37--5-orange)](https://packages.debian.org/source/stretch-backports/linux)
@@ -134,3 +139,14 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 安装过程中可能提示需要重启 `VPS`，输入 `y` 即可，如果没有出现也不用关心。
 
 ## 客户端下载和使用教程
+目前提供给大家5大常见平台的客户端的下载和使用教程。
+### Windows
+1. 点击下载[ Windows 客户端](/sosconf/SSR-Server/raw/master/Downloads/ShadowsocksR-win-4.9.2.rar)并安装。
+2. 根据 `.NET Framework` 的版本决定启动哪个版本的 EXE 文件，一般 PC 选择启动 **ShadowsocksR-dotnet4.0**。
+3. 在托盘栏右键小飞机，**服务器** -> **编辑服务器** -> **添加节点**，填写 SOSConf 提供的服务器信息并保存即可。
+4. **代理规则**设置为**绕过局域网和大陆**并将**系统代理模式**改成**全局模式**。测试一下是否能访问油管。
+5. 如测试成功，记得在**选项设置**中打勾**开机启动**并关闭**负载均衡**。从此开始享受酸酸乳带来的快乐生活～
+### MacOs
+### Linux
+### iOS
+### Android
