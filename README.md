@@ -1,17 +1,21 @@
 目录
 =================
  * [SSR 服务器搭建和使用指南](#ssr-服务器搭建和使用指南)
-    * [Ubuntu 服务器配置](#ubuntu-服务器配置)
+    * [Ubuntu/Debian 服务器配置](#ubuntudebian-服务器配置)
        * [下载安装 ssh](#下载安装-ssh)
        * [实现代理功能](#实现代理功能)
        * [开启 BBR 加速](#开启-bbr-加速)
     * [客户端下载和使用教程](#客户端下载和使用教程)
          
 # SSR 服务器搭建和使用指南
+[![LICENSE](https://img.shields.io/cran/l/devtools)](https://github.com/sosconf/SSR-Server/blob/master/LICENSE)
+[![Plantform](https://img.shields.io/badge/debian-4.19.37--5-orange)](https://packages.debian.org/source/stretch-backports/linux)
+[![Dependencies](https://img.shields.io/badge/Dependencies-up%20to%20date-green.svg)](https://github.com/teddysun/across/blob/master/bbr.sh)
 
-## Ubuntu 服务器配置
+服务器配置指令在 Linux 系统通用，亲测油管 1080P 无压力。部分配置依赖第三方脚本，如有失效，请写 issue，我们看到将及时更新，谢谢！
+## Ubuntu/Debian 服务器配置
 
-建议以下命令均在 `root` 权限下运行
+> 建议以下命令均在 **root** 权限下运行
 
 ### 下载安装 ssh
 
@@ -26,8 +30,11 @@ apt-get install openssh-server
 
 ```shell
 /etc/init.d/ssh start # 启动ssh
+```
 
-# 关闭和重启命令如下
+关闭和重启命令如下:
+
+```shell
 /etc/init.d/ssh stop  # 关闭ssh
 /etc/init.d/ssh restart  # 重启ssh
 ```
