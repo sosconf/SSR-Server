@@ -46,7 +46,7 @@ nano /etc/ssh/sshd_config
 
 如果找不到这一行内容，直接在文档内添加即可。
 
-完成后 `Ctrl+x`,然后键入 `y`,再键入 `enter` 即可保存并退出。
+完成后 `Ctrl+x`，然后键入 `y`，再键入 `enter` 即可保存并退出。
 
 之后在客户端电脑(也就是自己的电脑)上执行以下命令，执行过程中一路 `enter` 即可。
 
@@ -76,7 +76,7 @@ chmod 600 /root/.ssh/authorized_keys
 vim cd /etc/ssh/sshd_config
 ```
 
-修改或启用以下内容
+修改或启用以下内容:
 
 ```txt
 RSAAuthentication yes # 开启rsa验证
@@ -85,7 +85,7 @@ AuthorizedKeysFile .ssh/authorized_keys # 公钥保存位置
 PasswordAuthentication no # 禁止使用密码登录
 ```
 
-之后重启ssh
+之后重启 ssh:
 
 ```shell
 service sshd restart
