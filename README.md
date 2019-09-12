@@ -141,7 +141,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ## 客户端下载和使用教程
 目前提供给大家5大常见平台的客户端的下载和使用教程。
 ### Windows
-1. 点击下载[ Windows 客户端](/sosconf/SSR-Server/raw/master/Downloads/ShadowsocksR-win-4.9.2.rar)并安装。
+1. 点击下载 [Windows 客户端](https://github.com/sosconf/SSR-Server/raw/master/Downloads/ShadowsocksR-win-4.9.2.rar)并安装。
 2. 根据 `.NET Framework` 的版本决定启动哪个版本的 EXE 文件，一般 PC 选择启动 **ShadowsocksR-dotnet4.0**。
 3. 在托盘栏右键小飞机，**服务器** -> **编辑服务器** -> **添加节点**，填写 SOSConf 提供的服务器信息并保存即可。
 4. **代理规则**设置为**绕过局域网和大陆**并将**系统代理模式**改成**全局模式**。测试一下是否能访问油管。
