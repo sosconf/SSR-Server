@@ -139,7 +139,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 安装过程中可能提示需要重启 `VPS`，输入 `y` 即可，如果没有出现也不用关心。
 
 ## 客户端下载和使用教程
-目前提供给大家5大常见平台的客户端的下载和使用教程。
+目前提供给大家 5 大常见平台的客户端的下载和使用教程。
 ### Windows
 1. 点击下载 [Windows 客户端](https://github.com/sosconf/SSR-Server/raw/master/Downloads/ShadowsocksR-win-4.9.2.rar) 并安装。
 2. 根据 `.NET Framework` 的版本决定启动哪个版本的 EXE 文件，一般 PC 选择启动 **ShadowsocksR-dotnet4.0**。
