@@ -50,8 +50,6 @@ apt-get install openssh-server
 接下来配置 root 用户 ssh 服务:
 
 ```shell
-vim /etc/ssh/sshd_config
-===================================
 nano /etc/ssh/sshd_config
 ```
 
