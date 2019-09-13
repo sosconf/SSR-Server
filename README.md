@@ -194,13 +194,13 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 4. 如测试成功，从此开始享受酸酸乳带来的快乐生活～
 ### Android
 1. 点击下载 [ShadowsocksR](https://github.com/sosconf/SSR-Server/blob/master/Downloads/ssr-android.apk) 并安装。
-<p align="center"><img src ="screenshots/android_1.jpg" width = "400px"></p>
+<p align="center"><img src ="screenshots/android_1.png" width = "400px"></p>
 2. 打开应用程序，点击左上角的 **Shadowsocks R**，向右滑动删除默认连接。
-s<p align="center"><img src ="screenshots/android_2.jpg" width = "400px"></p>
+s<p align="center"><img src ="screenshots/android_2.png" width = "400px"></p>
 3. 点击右下角的 **+** 号按钮，点击**手动设置**，填写 SOSConf 提供的服务器信息并保存更新即可。
-<p align="center"><img src ="screenshots/android_3.jpg" width = "400px"></p>
+<p align="center"><img src ="screenshots/android_3.png" width = "400px"></p>
 4. 返回主页面，下滑找到**功能设置**。关闭**IPv6路由**，**分应用代理**，**UDP转发**。
-<p align="center"><img src ="screenshots/android_4.jpg" width = "400px"></p>
+<p align="center"><img src ="screenshots/android_4.png" width = "400px"></p>
 5. 完成配置后，点击右上角的小飞机标志并在弹出窗口点击**确定**。测试一下是否能访问油管。
-<p align="center"><img src ="screenshots/android_5.jpg" width = "400px"></p>
+<p align="center"><img src ="screenshots/android_5.png" width = "400px"></p>
 6. 如测试成功，从此开始享受酸酸乳带来的快乐生活～
