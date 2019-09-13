@@ -144,66 +144,66 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ### Windows
 1. 点击下载 [ShadowsocksR](https://github.com/sosconf/SSR-Server/raw/master/Downloads/ShadowsocksR-win-4.9.2.rar) 并安装。
 2. 根据 `.NET Framework` 的版本决定启动哪个版本的 EXE 文件，一般 PC 选择启动 **ShadowsocksR-dotnet4.0**。
-<p align="center"><img src ="screenshots/win_1.PNG" width = "600px"></p>
+<p align="center"><img src ="Screenshots/win_1.PNG" width = "600px"></p>
 
 3. 在托盘栏右键小飞机，**服务器** -> **编辑服务器** -> **添加**，填写 SOSConf 提供的服务器信息并保存即可。
-<p align="center"><img src ="screenshots/win_2_1.JPG" width = "400px"></p>
-<p align="center"><img src ="screenshots/win_2_2.JPG" width = "600px"></p>
+<p align="center"><img src ="Screenshots/win_2_1.JPG" width = "400px"></p>
+<p align="center"><img src ="Screenshots/win_2_2.JPG" width = "600px"></p>
 
 4. 将**系统代理模式**改成**全局模式**。测试一下是否能访问油管。
-<p align="center"><img src ="screenshots/win_3.PNG" width = "400px"></p>
+<p align="center"><img src ="Screenshots/win_3.PNG" width = "400px"></p>
 
 5. 如测试成功，记得在**选项设置**中打勾**开机启动**并关闭**负载均衡**。从此开始享受酸酸乳带来的快乐生活～
-<p align="center"><img src ="screenshots/win_4.PNG" width = "400px"></p>
+<p align="center"><img src ="Screenshots/win_4.PNG" width = "400px"></p>
 
 ### MacOs
 1. 点击下载 [ShadowsocksX-NG-R8](https://github.com/sosconf/SSR-Server/blob/master/Downloads/ssr-mac.dmg) 并安装。
 2. 一路默认安装，在**安全性与隐私**时选择**仍要打开**并点击**打开**。
 
 3. 在任务栏右键小飞机，**服务器** -> **编辑服务器** -> **添加**，填写 SOSConf 提供的服务器信息并保存即可。
-<p align="center"><img src ="screenshots/mac_1_2.png" width = "400px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="screenshots/mac_1_2_3.JPG" width = "400px"></p>
+<p align="center"><img src ="Screenshots/mac_1_2.png" width = "400px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="Screenshots/mac_1_2_3.JPG" width = "400px"></p>
 
 4. 在**系统代理模式**改成**全局模式**。点击**打开 Shadowsocks**。测试一下是否能访问油管。
-<p align="center"><img src ="screenshots/mac_2_1.png" width = "400px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="screenshots/mac_2_2.png" width = "400px"></p>
+<p align="center"><img src ="Screenshots/mac_2_1.png" width = "400px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="Screenshots/mac_2_2.png" width = "400px"></p>
 
 5. 如测试成功，记得右键小飞机点击**登录时自动启动**。从此开始享受酸酸乳带来的快乐生活～
-<p align="center"><img src ="screenshots/mac_3.png" width = "400px"></p>
+<p align="center"><img src ="Screenshots/mac_3.png" width = "400px"></p>
 
 ### Linux
 1. 点击下载 [Electron-SSR](https://hexang.org/miaocai/linux-ssr-client/raw/master/downloads/electron-ssr_0.2.3_amd64.deb) 并安装。
 2. 在任务栏右键小飞机，**服务器** -> **编辑服务器** -> **添加**，填写 SOSConf 提供的服务器信息并保存即可。
-<p align="center"><img src ="screenshots/linux_1_1.JPG" width = "400px"></p>
-<p align="center"><img src ="screenshots/linux_1_2.JPG" width = "600px"></p>
+<p align="center"><img src ="Screenshots/linux_1_1.JPG" width = "400px"></p>
+<p align="center"><img src ="Screenshots/linux_1_2.JPG" width = "600px"></p>
 
 3. 在**系统代理模式**改成**全局模式**。点击**打开应用**。测试一下是否能访问油管。
-<p align="center"><img src ="screenshots/linux_2_1.png" width = "400px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="screenshots/linux_2_2.png" width = "300px"></p>
+<p align="center"><img src ="Screenshots/linux_2_1.png" width = "400px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="Screenshots/linux_2_2.png" width = "300px"></p>
 
 4. 如测试成功，记得右键小飞机点击**配置** -> **选项配置** -> **开机启动**。从此开始享受酸酸乳带来的快乐生活～
-<p align="center"><img src ="screenshots/linux_3.png" width = "600px"></p>
+<p align="center"><img src ="Screenshots/linux_3.png" width = "600px"></p>
 
 ### iOS
 1. 前往非国区 Apple Store 下载 **Shadowrocket** 并安装，SOSConf 志愿者如有需要请找**技术组**要备用账号。
 2. 打开应用，点击右上方的加号，**类型** -> **ShadowsocksR**，填写 SOSConf 提供的服务器信息并保存即可。
-<p align="center"><img src ="screenshots/ios_1_1.jpg" width = "300px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="screenshots/ios_1_2.jpg" width = "400px"></p>
+<p align="center"><img src ="Screenshots/ios_1_1.jpg" width = "300px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="Screenshots/ios_1_2.jpg" width = "400px"></p>
 
-<p align="center"><img src ="screenshots/ios_1_3.jpg" width = "300px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="screenshots/ios_1_4.jpg" width = "300px"></p>
+<p align="center"><img src ="Screenshots/ios_1_3.jpg" width = "300px"><span style="display:block;">&emsp;&emsp;&emsp;&emsp;</span><img src ="Screenshots/ios_1_4.jpg" width = "300px"></p>
 
 3. 在**系统代理模式**改成**全局模式**。选中配置好的服务器节点，点击小火箭那栏的按钮，蓝色表示开启。测试一下是否能访问油管。
-<p align="center"><img src ="screenshots/ios_2.jpg" width = "400px"></p>
+<p align="center"><img src ="Screenshots/ios_2.jpg" width = "400px"></p>
 
 4. 如测试成功，从此开始享受酸酸乳带来的快乐生活～
 ### Android
 1. 点击下载 [ShadowsocksR](https://github.com/sosconf/SSR-Server/blob/master/Downloads/ssr-android.apk) 并安装。
 2. 打开应用程序，点击左上角的 **Shadowsocks R**，向右滑动删除默认连接。
-<p align="center"><img src ="screenshots/andorid_2.png" width = "400px"></p>
+<p align="center"><img src ="Screenshots/andorid_2.png" width = "400px"></p>
 
 3. 点击右下角的 **+** 号按钮，点击**手动设置**，填写 SOSConf 提供的服务器信息并保存更新即可。
-<p align="center"><img src ="screenshots/android_3.png" width = "400px"></p>
+<p align="center"><img src ="Screenshots/android_3.png" width = "400px"></p>
 
 4. 返回主页面，下滑找到**功能设置**。关闭**IPv6路由**，**分应用代理**，**UDP转发**。
-<p align="center"><img src ="screenshots/android_4.png" width = "400px"></p>
+<p align="center"><img src ="Screenshots/android_4.png" width = "400px"></p>
 
 5. 完成配置后，点击右上角的小飞机标志并在弹出窗口点击**确定**。测试一下是否能访问油管。
-<p align="center"><img src ="screenshots/android_5.png" width = "400px"></p>
+<p align="center"><img src ="Screenshots/android_5.png" width = "400px"></p>
 
 6. 如测试成功，从此开始享受酸酸乳带来的快乐生活～
