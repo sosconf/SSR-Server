@@ -5,8 +5,8 @@ touch output.logs
 fi
 
 # check the server port
-serverIP="152.44.45.234"
-port=2333
+serverIP="8.8.8.8"
+port=1234
 IPstatus=$(nc -z -w 1 $serverIP $port && echo ok || echo no)
 if [ "$IPstatus" == "ok" ];then
     echo `date`:"server port is normal" | tee -a output.logs
