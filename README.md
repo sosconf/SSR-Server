@@ -11,7 +11,6 @@
        * [Linux](#linux)
        * [iOS](#ios)
        * [Android](#android)
-    
 # SSR 服务器搭建和使用指南
 [![LICENSE](https://img.shields.io/cran/l/devtools)](https://github.com/sosconf/SSR-Server/blob/master/LICENSE)
 [![Plantform](https://img.shields.io/badge/debian-4.19.37--5-orange)](https://packages.debian.org/source/stretch-backports/linux)
@@ -25,7 +24,9 @@
 
 > 建议以下命令均在 **root** 权限下运行
 
-### 下载安装 ssh
+### 下载安装 ssh（非必需，额外工具）
+
+ssh 是一个连接服务器与本地的工具，一般来说类Unix系统自带ssh工具。
 
 打开终端执行如下命令，如果已经安装了 ssh 就直接跳到下一步即可:
 
@@ -67,7 +68,7 @@ nano /etc/ssh/sshd_config
 ssh-keygen -t rsa
 ```
 
-接下来进入 `/root/.ssh` 目录，将公钥上传至服务端(将 10.10.10.10 替换成自己的服务器地址)。
+接下来进入 `/root/.ssh` 目录，将公钥上传至服务端(将 10.10.10.10 替换成自己的服务器地址)。文件id_rsa.pub为命令`ssh-keygen -t rsa`所产生的，使用scp 命令传输文件时需要检查目录中是否存在该文件。
 
 ```shell
 cd /root/.ssh # 进入/root/.ssh目录
@@ -123,11 +124,15 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 
 然后依照提示依次配置即可(未安装过 SSR 的服务器在第一个提示出现时输入 1)。
 
-在提示设置端口的时候可以用默认的,也可以用自己的,但是切记不要使用1080以前的端口,建议 3000-30000 之间。
+在提示设置端口的时候可以用默认的,也可以用自己的,但是切记不要使用1080以前的端口,建议 3000-30000 之间。之后需要打开服务器的端口，方法一是进入到服务器后台**打开配置端口**，不过需要一定的时间生效。方法二是使用以下命令开启对应的服务器端口(ports 对应的是己经设置的ssr 服务端口)：
 
-设置完成后等待几分钟就好了。
+```shell
+iptables -A INPUT -p tcp --dport ports -j ACCEPT
+```
 
-> 具体可以查看此链接:[配置SSR](https://www.textarea.com/vultr/shoubashou-jiao-ni-dajian-shadowsocksr-kexue-shangwang-dajian-ssr-jiaocheng-shiyong-yu-suoyou-linux-zhuji-1046)
+该命令会立即开启对应的端口。
+
+> 具体可以查看此链接:[视频教程](https://www.bilibili.com/video/BV1w8411T7am/?spm_id_from=333.999.0.0&vd_source=4571028da75b46fed5099ff82016652c)
 
 ### 开启 BBR 加速
 
